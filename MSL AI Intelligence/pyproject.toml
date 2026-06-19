@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "msl-agent"
+version = "0.1.0"
+description = "Evidence-first human-in-the-loop MSL intelligence copilot proof of concept."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+  { name = "MSL Agent contributors" }
+]
+keywords = [
+  "medical-affairs",
+  "oncology",
+  "nsclc",
+  "clinical-trials",
+  "evidence-ledger",
+  "human-in-the-loop"
+]
+dependencies = [
+  "pydantic>=2.7,<3"
+]
+
+[project.scripts]
+msl-agent = "msl_agent.cli:main"
+msl-intel = "msl_ai_intelligence.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+msl_agent = ["py.typed"]

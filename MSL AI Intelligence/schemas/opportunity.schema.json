@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/msl-ai-intelligence/opportunity.schema.json",
+  "title": "MSL AI Intelligence Trial Opportunity",
+  "type": "object",
+  "required": [
+    "title",
+    "disease",
+    "setting",
+    "population",
+    "strategic_hypothesis",
+    "unmet_need",
+    "trial_concept",
+    "scores"
+  ],
+  "properties": {
+    "title": { "type": "string" },
+    "disease": { "type": "string" },
+    "setting": { "type": "string" },
+    "population": { "type": "string" },
+    "geography": { "type": "string" },
+    "strategic_hypothesis": { "type": "string" },
+    "unmet_need": { "type": "string" },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["claim", "source", "evidence_level", "caveat"],
+        "properties": {
+          "claim": { "type": "string" },
+          "source": { "type": "string" },
+          "evidence_level": { "type": "string" },
+          "caveat": { "type": "string" }
+        }
+      }
+    },
+    "trial_concept": {
+      "type": "object",
+      "required": ["intervention", "comparator", "primary_endpoint"],
+      "properties": {
+        "intervention": { "type": "string" },
+        "comparator": { "type": "string" },
+        "primary_endpoint": { "type": "string" },
+        "secondary_endpoints": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "biomarker_strategy": { "type": "string" },
+        "rwe_component": { "type": "string" }
+      }
+    },
+    "swot_bridge": {
+      "type": "object",
+      "properties": {
+        "strength_fit": { "type": "string" },
+        "weakness_mitigation": { "type": "string" },
+        "opportunity_capture": { "type": "string" },
+        "threat_response": { "type": "string" }
+      }
+    },
+    "scores": {
+      "type": "object",
+      "properties": {
+        "clinical_unmet_need": { "type": "number", "minimum": 1, "maximum": 5 },
+        "evidence_gap": { "type": "number", "minimum": 1, "maximum": 5 },
+        "biological_rationale": { "type": "number", "minimum": 1, "maximum": 5 },
+        "differentiation": { "type": "number", "minimum": 1, "maximum": 5 },
+        "feasibility": { "type": "number", "minimum": 1, "maximum": 5 },
+        "competitive_urgency": { "type": "number", "minimum": 1, "maximum": 5 },
+        "access_relevance": { "type": "number", "minimum": 1, "maximum": 5 },
+        "narrative_power": { "type": "number", "minimum": 1, "maximum": 5 },
+        "patient_value": { "type": "number", "minimum": 1, "maximum": 5 }
+      }
+    },
+    "stakeholder_narratives": {
+      "type": "object",
+      "properties": {
+        "kol": { "type": "string" },
+        "hcp": { "type": "string" },
+        "payer": { "type": "string" },
+        "patient": { "type": "string" }
+      }
+    },
+    "elevator_pitch": { "type": "string" }
+  }
+}

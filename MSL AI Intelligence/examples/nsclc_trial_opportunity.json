@@ -1,0 +1,62 @@
+{
+  "title": "PD-L1 Low Driver-Negative NSCLC Opportunity",
+  "disease": "NSCLC",
+  "setting": "Metastatic first line",
+  "population": "Driver-negative, non-squamous, PD-L1 low or negative",
+  "geography": "Italy or EU, to be confirmed for access analysis",
+  "strategic_hypothesis": "A biomarker-informed combination strategy could improve durable disease control in a subgroup where broad chemo-immunotherapy benefit is clinically variable and real-world testing gaps may affect optimal treatment selection.",
+  "unmet_need": "Patients with driver-negative, PD-L1 low or negative metastatic NSCLC often have limited durable benefit from current broad treatment approaches, and implementation gaps in molecular testing can further weaken patient selection.",
+  "evidence": [
+    {
+      "claim": "PFS is commonly used as a primary endpoint in modern metastatic NSCLC trials, while OS remains the strongest value signal for practice-changing evidence.",
+      "source": "Replace with current trial publications and guidelines before use",
+      "evidence_level": "Framework claim",
+      "caveat": "This example file is a scaffold and does not substitute for current evidence review."
+    },
+    {
+      "claim": "PD-L1 low or negative, driver-negative disease is a clinically important segment for unmet-need assessment.",
+      "source": "Replace with current trial subgroup evidence, RWE, and guidelines",
+      "evidence_level": "Hypothesis scaffold",
+      "caveat": "Requires up-to-date extraction of subgroup outcomes and guideline positioning."
+    }
+  ],
+  "trial_concept": {
+    "intervention": "Investigational differentiated combination added to platinum doublet backbone",
+    "comparator": "Current guideline-concordant chemo-immunotherapy standard of care",
+    "primary_endpoint": "PFS with hierarchical OS testing",
+    "secondary_endpoints": [
+      "OS",
+      "ORR",
+      "DOR",
+      "safety and discontinuation",
+      "patient-reported outcomes",
+      "time to treatment discontinuation in pragmatic follow-up"
+    ],
+    "biomarker_strategy": "Baseline PD-L1 TPS, broad NGS, immune-resistance exploratory panel, and tissue or liquid biopsy adequacy metrics",
+    "rwe_component": "Prospective pragmatic extension tracking testing completion, treatment duration, TTD, and post-progression sequence"
+  },
+  "swot_bridge": {
+    "strength_fit": "Use if the product has a differentiated mechanism, tolerability, biomarker logic, or combination rationale.",
+    "weakness_mitigation": "Avoid overclaiming broad-population superiority by focusing on a clearly defined evidence gap.",
+    "opportunity_capture": "Define a high-need segment where current outcomes and testing implementation leave room for improvement.",
+    "threat_response": "Address competitor congestion by anchoring differentiation to biomarker selection and pragmatic value evidence."
+  },
+  "scores": {
+    "clinical_unmet_need": 4,
+    "evidence_gap": 4,
+    "biological_rationale": 3,
+    "differentiation": 3,
+    "feasibility": 3,
+    "competitive_urgency": 4,
+    "access_relevance": 4,
+    "narrative_power": 4,
+    "patient_value": 4
+  },
+  "stakeholder_narratives": {
+    "kol": "The concept asks whether a biologically focused approach can clarify benefit in a subgroup where broad treatment strategies leave important uncertainty.",
+    "hcp": "The study targets a real treatment decision point and would help refine which patients need more than the current default approach.",
+    "payer": "The design could generate comparative and pragmatic evidence in a defined population, reducing uncertainty relevant to reimbursement and pathway decisions.",
+    "patient": "The concept focuses on patients who still need longer disease control, tolerable treatment, and reliable access to appropriate testing."
+  },
+  "elevator_pitch": "A major gap in metastatic NSCLC is durable benefit for driver-negative, PD-L1 low or negative patients. The opportunity is to test a biomarker-informed combination against current standard care while measuring survival, safety, quality of life, and real-world treatment persistence. The design creates both clinical and access-relevant evidence by embedding testing quality and pragmatic follow-up. This matters now because differentiation in crowded lung cancer settings will depend on proving value in the patients least well served by broad strategies."
+}

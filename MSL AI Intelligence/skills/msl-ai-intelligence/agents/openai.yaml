@@ -1,0 +1,4 @@
+interface:
+  display_name: "MSL AI Intelligence"
+  short_description: "Thoracic oncology trial intelligence"
+  default_prompt: "Use $msl-ai-intelligence to identify NSCLC unmet needs and draft a trial opportunity brief."

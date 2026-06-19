@@ -1,0 +1,296 @@
+{
+  "sources": [
+    {
+      "source_id": "PMID:41104938",
+      "source_type": "pubmed",
+      "title": "Survival with osimertinib plus chemotherapy in EGFR-mutated advanced NSCLC",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41104938/",
+      "date": "2026",
+      "identifiers": [
+        "PMID:41104938",
+        "DOI:10.1056/NEJMoa2510308"
+      ],
+      "supported_claims": [
+        "FLAURA2 final analysis reported an OS benefit for osimertinib plus chemotherapy."
+      ],
+      "confidence": "high"
+    },
+    {
+      "source_id": "FDA:MARIPOSA-2024",
+      "source_type": "regulatory",
+      "title": "FDA approval of lazertinib plus amivantamab-vmjw in EGFR-mutated NSCLC",
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-lazertinib-amivantamab-vmjw-non-small-lung-cancer",
+      "date": "2024-08-19",
+      "identifiers": [
+        "NCT04487080"
+      ],
+      "supported_claims": [
+        "FDA approved lazertinib plus amivantamab-vmjw for first-line EGFR exon19del/L858R NSCLC."
+      ],
+      "confidence": "high"
+    },
+    {
+      "source_id": "FDA:LAURA-2024",
+      "source_type": "regulatory",
+      "title": "FDA approval of osimertinib after chemoradiotherapy in unresectable stage III EGFR-mutated NSCLC",
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-osimertinib-locally-advanced-unresectable-stage-iii-non-small-cell-lung-cancer",
+      "date": "2024-09-25",
+      "identifiers": [
+        "NCT03521154"
+      ],
+      "supported_claims": [
+        "FDA approved osimertinib after platinum-based chemoradiotherapy for unresectable stage III EGFR exon19del/L858R NSCLC without progression."
+      ],
+      "confidence": "high"
+    },
+    {
+      "source_id": "FDA:MARIPOSA2-2024",
+      "source_type": "regulatory",
+      "title": "FDA approval of amivantamab-vmjw plus carboplatin and pemetrexed after EGFR TKI",
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-amivantamab-vmjw-carboplatin-and-pemetrexed-non-small-cell-lung-cancer-egfr-exon-19",
+      "date": "2024-09-19",
+      "identifiers": [
+        "NCT04988295"
+      ],
+      "supported_claims": [
+        "FDA approved amivantamab-vmjw plus carboplatin and pemetrexed after progression on or after an EGFR TKI."
+      ],
+      "confidence": "high"
+    },
+    {
+      "source_id": "PMID:37689979",
+      "source_type": "pubmed",
+      "title": "Patritumab deruxtecan in EGFR-mutated NSCLC after EGFR TKI and platinum-based chemotherapy",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37689979/",
+      "date": "2023",
+      "identifiers": [
+        "PMID:37689979",
+        "DOI:10.1200/JCO.23.01476"
+      ],
+      "supported_claims": [
+        "HERTHENA-Lung01 reported activity of patritumab deruxtecan after EGFR TKI and platinum-based chemotherapy."
+      ],
+      "confidence": "moderate"
+    },
+    {
+      "source_id": "PMID:38958845",
+      "source_type": "rwe",
+      "title": "Real-world outcomes after osimertinib and platinum-based chemotherapy",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38958845/",
+      "date": "2024",
+      "identifiers": [
+        "PMID:38958845",
+        "DOI:10.1007/s12325-024-02936-4"
+      ],
+      "supported_claims": [
+        "Real-world outcomes after osimertinib and platinum-based chemotherapy remain poor in reported US cohorts."
+      ],
+      "confidence": "moderate"
+    },
+    {
+      "source_id": "PMID:41130408",
+      "source_type": "pubmed",
+      "title": "ORCHARD osimertinib plus savolitinib in MET-amplified EGFR-mutated NSCLC after osimertinib",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41130408/",
+      "date": "2025",
+      "identifiers": [
+        "PMID:41130408",
+        "DOI:10.1016/j.jtho.2025.10.009"
+      ],
+      "supported_claims": [
+        "ORCHARD reported activity for osimertinib plus savolitinib in MET-amplified disease after first-line osimertinib."
+      ],
+      "confidence": "moderate"
+    },
+    {
+      "source_id": "PMID:38042525",
+      "source_type": "pubmed",
+      "title": "CNS efficacy of osimertinib with or without chemotherapy in EGFR-mutated advanced NSCLC",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38042525/",
+      "date": "2024",
+      "identifiers": [
+        "PMID:38042525",
+        "DOI:10.1200/JCO.23.02219"
+      ],
+      "supported_claims": [
+        "FLAURA2 included CNS efficacy analyses for osimertinib with or without chemotherapy."
+      ],
+      "confidence": "moderate"
+    },
+    {
+      "source_id": "PMID:41235190",
+      "source_type": "pubmed",
+      "title": "Cost-effectiveness of osimertinib after chemoradiotherapy in unresectable stage III EGFR-mutated NSCLC",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41235190/",
+      "date": "2025",
+      "identifiers": [
+        "PMID:41235190"
+      ],
+      "supported_claims": [
+        "Published economic modeling highlights value uncertainty and country-specific sensitivity for osimertinib after chemoradiotherapy."
+      ],
+      "confidence": "low"
+    },
+    {
+      "source_id": "NCT05338970",
+      "source_type": "clinical_trials",
+      "title": "HERTHENA-Lung02",
+      "url": "https://clinicaltrials.gov/study/NCT05338970",
+      "date": "status verified 2025-01",
+      "identifiers": [
+        "NCT05338970"
+      ],
+      "supported_claims": [
+        "HERTHENA-Lung02 evaluates patritumab deruxtecan versus platinum-based chemotherapy after third-generation EGFR TKI."
+      ],
+      "confidence": "moderate"
+    },
+    {
+      "source_id": "NCT05261399",
+      "source_type": "clinical_trials",
+      "title": "SAFFRON",
+      "url": "https://clinicaltrials.gov/study/NCT05261399",
+      "date": "status verified 2026-03",
+      "identifiers": [
+        "NCT05261399"
+      ],
+      "supported_claims": [
+        "SAFFRON evaluates savolitinib plus osimertinib in EGFR-mutated, MET-overexpressed/amplified NSCLC after osimertinib."
+      ],
+      "confidence": "moderate"
+    },
+    {
+      "source_id": "NCT03944772",
+      "source_type": "clinical_trials",
+      "title": "ORCHARD",
+      "url": "https://clinicaltrials.gov/study/NCT03944772",
+      "date": "status verified public registry",
+      "identifiers": [
+        "NCT03944772"
+      ],
+      "supported_claims": [
+        "ORCHARD is a biomarker-directed platform study after first-line osimertinib."
+      ],
+      "confidence": "moderate"
+    }
+  ],
+  "claims": [
+    {
+      "claim_text": "FLAURA2 final analysis reported an OS benefit for osimertinib plus chemotherapy.",
+      "source_ids": [
+        "PMID:41104938"
+      ],
+      "claim_type": "fact",
+      "confidence": "high",
+      "evidence_level": "peer-reviewed phase III publication",
+      "needs_human_review": false
+    },
+    {
+      "claim_text": "FDA approved lazertinib plus amivantamab-vmjw for first-line EGFR exon19del/L858R NSCLC.",
+      "source_ids": [
+        "FDA:MARIPOSA-2024"
+      ],
+      "claim_type": "fact",
+      "confidence": "high",
+      "evidence_level": "regulatory approval notice",
+      "needs_human_review": false
+    },
+    {
+      "claim_text": "FDA approved osimertinib after platinum-based chemoradiotherapy for unresectable stage III EGFR exon19del/L858R NSCLC without progression.",
+      "source_ids": [
+        "FDA:LAURA-2024"
+      ],
+      "claim_type": "fact",
+      "confidence": "high",
+      "evidence_level": "regulatory approval notice",
+      "needs_human_review": false
+    },
+    {
+      "claim_text": "FDA approved amivantamab-vmjw plus carboplatin and pemetrexed after progression on or after an EGFR TKI.",
+      "source_ids": [
+        "FDA:MARIPOSA2-2024"
+      ],
+      "claim_type": "fact",
+      "confidence": "high",
+      "evidence_level": "regulatory approval notice",
+      "needs_human_review": false
+    },
+    {
+      "claim_text": "HERTHENA-Lung01 reported activity of patritumab deruxtecan after EGFR TKI and platinum-based chemotherapy.",
+      "source_ids": [
+        "PMID:37689979"
+      ],
+      "claim_type": "fact",
+      "confidence": "moderate",
+      "evidence_level": "phase II peer-reviewed publication",
+      "needs_human_review": true
+    },
+    {
+      "claim_text": "Real-world outcomes after osimertinib and platinum-based chemotherapy remain poor in reported US cohorts.",
+      "source_ids": [
+        "PMID:38958845"
+      ],
+      "claim_type": "fact",
+      "confidence": "moderate",
+      "evidence_level": "retrospective real-world study",
+      "needs_human_review": true
+    },
+    {
+      "claim_text": "ORCHARD reported activity for osimertinib plus savolitinib in MET-amplified disease after first-line osimertinib.",
+      "source_ids": [
+        "PMID:41130408",
+        "NCT03944772"
+      ],
+      "claim_type": "fact",
+      "confidence": "moderate",
+      "evidence_level": "platform trial publication and registry record",
+      "needs_human_review": true
+    },
+    {
+      "claim_text": "A post-osimertinib molecular assignment platform is a strategic hypothesis for EGFR-mutated NSCLC.",
+      "source_ids": [
+        "PMID:38958845",
+        "FDA:MARIPOSA2-2024",
+        "PMID:41130408",
+        "NCT03944772"
+      ],
+      "claim_type": "hypothesis",
+      "confidence": "low",
+      "evidence_level": "strategic hypothesis grounded in source-linked unmet need and biomarker-directed signals",
+      "needs_human_review": true
+    },
+    {
+      "claim_text": "A first-line risk-adapted intensification trial is a strategic hypothesis for high-risk EGFR-mutated NSCLC.",
+      "source_ids": [
+        "PMID:41104938",
+        "FDA:MARIPOSA-2024"
+      ],
+      "claim_type": "hypothesis",
+      "confidence": "low",
+      "evidence_level": "strategic hypothesis grounded in multiple first-line regimen developments",
+      "needs_human_review": true
+    },
+    {
+      "claim_text": "A CNS-first endpoint strategy is a strategic hypothesis for EGFR-mutated NSCLC trial design.",
+      "source_ids": [
+        "PMID:38042525"
+      ],
+      "claim_type": "hypothesis",
+      "confidence": "low",
+      "evidence_level": "strategic hypothesis grounded in source-linked CNS efficacy analyses",
+      "needs_human_review": true
+    },
+    {
+      "claim_text": "Economics-oriented evidence generation should capture resource use, PRO, and access-sensitive endpoints.",
+      "source_ids": [
+        "PMID:41235190"
+      ],
+      "claim_type": "recommendation",
+      "confidence": "low",
+      "evidence_level": "recommendation informed by published economic modeling and internal evidence-generation logic",
+      "needs_human_review": true
+    }
+  ],
+  "data_cutoff": "2026-06-19",
+  "limitations": []
+}

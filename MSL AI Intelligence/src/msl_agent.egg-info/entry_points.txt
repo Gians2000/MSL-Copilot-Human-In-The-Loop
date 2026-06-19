@@ -1,0 +1,3 @@
+[console_scripts]
+msl-agent = msl_agent.cli:main
+msl-intel = msl_ai_intelligence.cli:main

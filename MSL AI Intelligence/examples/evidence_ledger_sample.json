@@ -1,0 +1,92 @@
+{
+  "sources": [
+    {
+      "source_id": "PMID:41104938",
+      "source_type": "pubmed",
+      "title": "Survival with osimertinib plus chemotherapy in EGFR-mutated advanced NSCLC",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41104938/",
+      "date": "2026",
+      "identifiers": [
+        "PMID:41104938",
+        "DOI:10.1056/NEJMoa2510308"
+      ],
+      "supported_claims": [
+        "FLAURA2 final analysis reported an OS benefit for osimertinib plus chemotherapy."
+      ],
+      "confidence": "high"
+    },
+    {
+      "source_id": "FDA:MARIPOSA-2024",
+      "source_type": "regulatory",
+      "title": "FDA approval of lazertinib plus amivantamab-vmjw in EGFR-mutated NSCLC",
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-lazertinib-amivantamab-vmjw-non-small-lung-cancer",
+      "date": "2024-08-19",
+      "identifiers": [
+        "NCT04487080"
+      ],
+      "supported_claims": [
+        "FDA approved lazertinib plus amivantamab-vmjw for first-line EGFR exon19del/L858R NSCLC."
+      ],
+      "confidence": "high"
+    },
+    {
+      "source_id": "NCT05338970",
+      "source_type": "clinical_trials",
+      "title": "HERTHENA-Lung02",
+      "url": "https://clinicaltrials.gov/study/NCT05338970",
+      "date": "status verified 2025-01",
+      "identifiers": [
+        "NCT05338970"
+      ],
+      "supported_claims": [
+        "HERTHENA-Lung02 evaluates patritumab deruxtecan versus platinum-based chemotherapy after third-generation EGFR TKI."
+      ],
+      "confidence": "moderate"
+    }
+  ],
+  "claims": [
+    {
+      "claim_text": "FLAURA2 final analysis reported an OS benefit for osimertinib plus chemotherapy.",
+      "source_ids": [
+        "PMID:41104938"
+      ],
+      "claim_type": "fact",
+      "confidence": "high",
+      "evidence_level": "peer-reviewed phase III publication",
+      "needs_human_review": false
+    },
+    {
+      "claim_text": "FDA approved lazertinib plus amivantamab-vmjw for first-line EGFR exon19del/L858R NSCLC.",
+      "source_ids": [
+        "FDA:MARIPOSA-2024"
+      ],
+      "claim_type": "fact",
+      "confidence": "high",
+      "evidence_level": "regulatory approval notice",
+      "needs_human_review": false
+    },
+    {
+      "claim_text": "HERTHENA-Lung02 evaluates patritumab deruxtecan versus platinum-based chemotherapy after third-generation EGFR TKI.",
+      "source_ids": [
+        "NCT05338970"
+      ],
+      "claim_type": "fact",
+      "confidence": "moderate",
+      "evidence_level": "ClinicalTrials.gov registry record",
+      "needs_human_review": true
+    },
+    {
+      "claim_text": "A risk-adapted first-line intensification trial is a strategic hypothesis for high-risk EGFR-mutated NSCLC.",
+      "source_ids": [
+        "PMID:41104938",
+        "FDA:MARIPOSA-2024"
+      ],
+      "claim_type": "hypothesis",
+      "confidence": "low",
+      "evidence_level": "strategic hypothesis grounded in multiple source-linked developments",
+      "needs_human_review": true
+    }
+  ],
+  "data_cutoff": "2026-06-19",
+  "limitations": []
+}
